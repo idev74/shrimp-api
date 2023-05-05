@@ -1,10 +1,15 @@
-# 🔐 auth-api-starterpack
+# 🦐 Shrimp API
 
-[![GitHub](https://img.shields.io/github/forks/droxey/auth-api-starterpack.svg?style=flat-square)](https://github.com/droxey/auth-api-starterpack/network)
-[![GitHub](https://img.shields.io/github/issues/droxey/auth-api-starterpack.svg?style=flat-square)](https://github.com/droxey/auth-api-starterpack/issues)
-[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Mocha](https://img.shields.io/badge/-mocha-%238D6748?style=for-the-badge&logo=mocha&logoColor=white)
+![Chai](https://img.shields.io/badge/chai.js-323330?style=for-the-badge&logo=chai&logoColor=red)
 
-Custom, authenticated API instructions and starter pack for BEW 1.3 students!
+## Introduction
+This is a basic API that allows users to:
+- Log in/Sign-up/Logout
+- CRUD data about shrimp
 
 ## Installation
 
@@ -13,24 +18,8 @@ Custom, authenticated API instructions and starter pack for BEW 1.3 students!
 
     ```bash
     $ cd auth-api-starterpack
-    $ atom .
+    $ code .
     ```
 
 1. Run `npm install` to install project dependencies into the activated environment.
 1. Execute `npm start` to run the development server.
-
-## Development
-
-### `#TODO` === Hint
-
-* I've added **helpful `#TODO` placeholders, comments, and hints throughout the project** to jog your memory in case you need a hand! Simply `CTRL` + `Shift` + `F` to Find All in your editor, and **search for `#TODO`.** You'll find a helpful list of hints waiting for you!
-
-## Deployment
-
-### Heroku
-
-Follow this [Node.js Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs) to deploy your application on Heroku. Be sure to complete all of the steps!
-
-## [BEW 1.3] Project Requirements
-
-* View the [**requirements document**](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations/blob/master/Projects/02-Custom-API-Project.md) in the [Class Repository](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations).
