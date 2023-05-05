@@ -11,9 +11,7 @@ const UserSchema = new Schema({
     { timestamps: { createdAt: 'created_at' } }
 );
 
-// Must use function here! ES6 => functions do not bind this!
 UserSchema.pre("save", function (next) {
-    // ENCRYPT PASSWORD
     const user = this;
     if (!user.isModified("password")) {
         return next();
@@ -26,11 +24,11 @@ UserSchema.pre("save", function (next) {
     });
 });
 
-// Need to use function to enable this.password to work.
 UserSchema.methods.comparePassword = function (password, done) {
     bcrypt.compare(password, this.password, (err, isMatch) => {
         done(err, isMatch);
     });
 };
 
-module.exports = mongoose.model("User", UserSchema);
+const User = mongoose.model("User", UserSchema);
+module.exports = User;
