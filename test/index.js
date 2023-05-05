@@ -5,6 +5,6 @@ const should = chai.should();
 
 chai.use(chaiHttp);
 
-describe("API Tests", function() {
-  it("TODO: Should test each endpoint of your API");
-});
+// describe("API Tests", function() {
+//   it("TODO: Should test each endpoint of your API");
+// });

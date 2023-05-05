@@ -17,8 +17,10 @@ const User = require('./models/user');
 
 require('./controllers/auth.js')(app);
 
-app.listen(process.env.PORT, () => {
-    console.log(`Server running on port ${process.env.PORT}`);
+const port = process.env.PORT;
+
+app.listen(port, () => {
+    console.log(`Server running on port ${port}`);
 });
 
 module.exports = app;
