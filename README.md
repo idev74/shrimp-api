@@ -11,6 +11,8 @@ This is a basic API that allows users to:
 - Log in/Sign-up/Logout
 - CRUD data about shrimp
 
+[API Documentation](https://idev74.github.io/shrimp-api-docs/#/)
+
 ## Installation
 
 1. Fork this repository and clone your fork locally.
