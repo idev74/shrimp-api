@@ -1,12 +1,14 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 const Schema = mongoose.Schema;
+const Shrimp = require('./shrimp');
 
 const UserSchema = new Schema({
     createdAt: { type: Date },
     updatedAt: { type: Date },
     password: { type: String, select: false },
-    username: { type: String, required: true }
+    username: { type: String, required: true },
+    shrimps: [{ type: Schema.Types.ObjectId, ref: "Shrimp" }]
 },
     { timestamps: { createdAt: 'created_at' } }
 );

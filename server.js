@@ -13,9 +13,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
-const User = require('./models/user');
-
 require('./controllers/auth.js')(app);
+require('./controllers/shrimps.js')(app);
 
 const port = process.env.PORT;
 

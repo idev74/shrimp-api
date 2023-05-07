@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
+const User = require('./user');
 
 const ShrimpSchema = new Schema({
     createdAt: { type: Date },
@@ -16,4 +17,3 @@ const ShrimpSchema = new Schema({
 const Shrimp = mongoose.model("Shrimp", ShrimpSchema);
 
 module.exports = Shrimp;
-    

@@ -52,4 +52,12 @@ describe('User', function () {
           done();
         });
       });
+
+        // it('should be able to get a user', function (done) {
+        //     const id = "6454829c4ff99e1b0e8ef529";
+        //     agent.get(`/users/${id}`).end(function (err, res) {
+        //         res.should.have.status(200);
+        //         done();
+        //     });
+        // });
 });
