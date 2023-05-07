@@ -12,16 +12,3 @@
 This is a basic API that allows users to:
 - Log in/Sign-up/Logout
 - CRUD data about shrimp
-
-## Installation
-
-1. Fork this repository and clone your fork locally.
-1. Open the repository folder in your editor of choice:
-
-    ```bash
-    $ cd auth-api-starterpack
-    $ code .
-    ```
-
-1. Run `npm install` to install project dependencies into the activated environment.
-1. Execute `npm start` to run the development server.
