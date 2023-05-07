@@ -6,8 +6,9 @@
 ![Mocha](https://img.shields.io/badge/-mocha-%238D6748?style=for-the-badge&logo=mocha&logoColor=white)
 ![Chai](https://img.shields.io/badge/chai.js-323330?style=for-the-badge&logo=chai&logoColor=red)
 
+[API Documentation Here!](https://idev74.github.io/shrimp-api-docs/#/)
+
 ## Introduction
-[API Documentation](https://idev74.github.io/shrimp-api-docs/#/)
 This is a basic API that allows users to:
 - Log in/Sign-up/Logout
 - CRUD data about shrimp
