@@ -1,7 +1,7 @@
 /* Mongoose Connection */
 require('dotenv').config();
 const mongoose = require('mongoose');
-assert = require('assert');
+const assert = require('assert');
 
 const url = process.env.DB_URL;
 
